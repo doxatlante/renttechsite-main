@@ -6,6 +6,7 @@
 }
 
 .loginmain {
+  background-color: #333;
   height: 100vh;
   background: linear-gradient(135deg, #6a0dad, #9f5bff);
   display: flex;
