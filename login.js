@@ -1,13 +1,16 @@
 document.getElementById("loginForm").addEventListener("submit", function (e) {
   e.preventDefault();
+
   const email = document.getElementById("email").value.trim();
   const password = document.getElementById("password").value.trim();
-  const errorMessage = document.getElementById("errorMessage");
+  const error = document.getElementById("errorMessage");
 
-  // Пример проверки
-  if (email === "admin@renttech.com" && password === "123456") {
-    window.location.href = "dashboard.html"; // перенаправление
+  const user = JSON.parse(localStorage.getItem("user"));
+
+  if (user && user.email === email && user.password === password) {
+    alert("Вход выполнен успешно!");
+    window.location.href = "dashboard.html"; // или главная
   } else {
-    errorMessage.textContent = "Неверный email или пароль";
+    error.textContent = "Неверный email или пароль.";
   }
 });
