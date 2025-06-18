@@ -1,40 +1,27 @@
-* {
-  box-sizing: border-box;
+body {
   margin: 0;
   padding: 0;
-  font-family: "Segoe UI", sans-serif;
-}
-
-.registermain {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #3a3a3a, #4a4a4a);
   height: 100vh;
-  background: linear-gradient(135deg, #6a0dad, #9f5bff);
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
-.register-wrapper {
-  width: 100%;
-  max-width: 460px;
-  padding: 20px;
-}
-
-.register-box {
-  background: #fff;
-  padding: 40px;
+.form-wrapper {
+  background: white;
+  padding: 40px 30px;
   border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+  width: 100%;
+  max-width: 400px;
   text-align: center;
 }
 
-h1 {
-  font-size: 28px;
+h2 {
   margin-bottom: 25px;
   color: #333;
-}
-
-h1 span {
-  color: #6a0dad;
 }
 
 input {
@@ -42,46 +29,35 @@ input {
   padding: 14px;
   margin: 10px 0;
   font-size: 16px;
-  border-radius: 10px;
   border: 1px solid #ccc;
-  transition: border 0.3s;
-}
-
-input:focus {
-  outline: none;
-  border-color: #6a0dad;
+  border-radius: 10px;
+  box-sizing: border-box;
 }
 
 button {
   width: 100%;
   padding: 14px;
   margin-top: 15px;
-  background-color: #6a0dad;
+  background-color: #4b4b4b;
   color: white;
   font-size: 16px;
   font-weight: bold;
   border: none;
   border-radius: 10px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s;
 }
 
 button:hover {
-  background-color: #5300a3;
+  background-color: #333;
 }
 
-.login-link {
-  margin-top: 18px;
+.link-text {
+  margin-top: 16px;
   font-size: 14px;
 }
 
-.login-link a {
-  color: #6a0dad;
+.link-text a {
+  color: #333;
   text-decoration: none;
-}
-
-.error-message {
-  margin-top: 10px;
-  color: red;
-  font-size: 14px;
 }

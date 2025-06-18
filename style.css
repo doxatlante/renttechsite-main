@@ -627,9 +627,9 @@ text-align: center;
 }
 
 .footer_logo_img {
-    width: 100px;
+    width: 70px;
     margin-right: 15px;
-    height: 50px;
+    height: 70px;
     
 }
 
@@ -744,7 +744,7 @@ text-align: center;
 }
 
 .section_header h3 {
-    font-size: 18px;
+    font-size: 40px;
     color: #f38181;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -752,14 +752,14 @@ text-align: center;
 }
 
 .section_header h2 {
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 700;
     color: #333;
     margin-bottom: 20px;
 }
 
 .section_header .section_text p {
-    font-size: 16px;
+    font-size: 25px;
     color: #666;
     line-height: 1.6;
 }
@@ -833,7 +833,7 @@ text-align: center;
 
 .delivery_info ul li {
     margin-bottom: 15px;
-    font-size: 16px;
+    font-size: 20px;
     color: #666;
 }
 
@@ -877,7 +877,7 @@ text-align: center;
 }
 
 .navbar .nav_links a {
-    color: #fff;
+    color: #ed7161;
     text-decoration: none;
     font-size: 18px;
     padding: 8px 16px;
@@ -898,8 +898,8 @@ body {
 }
 
 .logo_img {
-    width: 200px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
 }
 
 /* Общие стили */

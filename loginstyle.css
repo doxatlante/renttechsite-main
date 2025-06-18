@@ -8,7 +8,7 @@
 .loginmain {
   background-color: #333;
   height: 100vh;
-  background: linear-gradient(135deg, #6a0dad, #9f5bff);
+  background: linear-gradient(135deg, #000000, #949494);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,7 +35,7 @@ h1 {
 }
 
 h1 span {
-  color: #6a0dad;
+  color: #636363;
 }
 
 input {
@@ -50,14 +50,14 @@ input {
 
 input:focus {
   outline: none;
-  border-color: #6a0dad;
+  border-color: #636363;
 }
 
 button {
   width: 100%;
   padding: 14px;
   margin-top: 15px;
-  background-color: #6a0dad;
+  background-color: #636363;
   color: white;
   font-size: 16px;
   font-weight: bold;
@@ -68,7 +68,7 @@ button {
 }
 
 button:hover {
-  background-color: #5300a3;
+  background-color: #a0a0a0;
 }
 
 .register-link {
@@ -77,7 +77,7 @@ button:hover {
 }
 
 .register-link a {
-  color: #6a0dad;
+  color: #636363;
   text-decoration: none;
 }
 
