@@ -1,18 +1,15 @@
 <?php
 $host = 'localhost';
-$db   = 'shop_db';       // имя БД, которое ты ввёл
+$db   = 'renttechdb'; // название базы данных
 $user = 'root';
-$pass = '';
+$pass = ''; // без пароля по умолчанию в XAMPP
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
-$options = [
-  PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
-  PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
-];
 
 try {
-  $pdo = new PDO($dsn, $user, $pass, $options);
+  $pdo = new PDO($dsn, $user, $pass);
+  $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch (PDOException $e) {
   die("Ошибка подключения: " . $e->getMessage());
 }
